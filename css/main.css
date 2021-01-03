@@ -52,3 +52,27 @@ article {
     line-height: 30px;
     margin-top: 20px;
 }
+
+/* Responsive */
+
+/* Mobile */
+@media (max-width: 500px) {
+    .container {
+        max-width: 360px;
+        margin: auto;
+    }
+    .author-info-sec .info {
+        width: 70%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 786px) {
+    .container {
+        max-width: 420px;
+        margin: auto;
+    }
+    .author-info-sec .info {
+        width: 75%;
+    }
+}

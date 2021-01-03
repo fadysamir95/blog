@@ -48,3 +48,22 @@
     font-size: 13px;
     color: #444444;
 }
+
+
+/* Responsive */
+
+/* Mobile */
+@media (max-width: 500px) {
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 786px) {
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
