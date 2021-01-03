@@ -1,0 +1,12 @@
+button {
+    background-color: #b3dada;
+    border-radius: 10px;
+    border: 1px solid #b3dada;
+    padding: 20px;
+}
+button:hover, button:active, button:focus {
+    background-color: #81dada;
+    border-radius: 10px;
+    border: 1px solid #81dada;
+    padding: 20px;
+}
