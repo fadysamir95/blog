@@ -29,6 +29,8 @@
 }
 .card-body {
     padding: 0 20px;
+    display: grid;
+    grid-template-columns: auto
 }
 .card a {
     margin-top: 10px;

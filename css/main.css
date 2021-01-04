@@ -52,6 +52,13 @@ article {
     line-height: 30px;
     margin-top: 20px;
 }
+.social-icons {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #d6d2d2;
+    padding: 10px;
+}
 
 /* Responsive */
 
